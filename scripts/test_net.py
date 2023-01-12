@@ -60,8 +60,8 @@ def test_network(filename: str, test_num: int) -> float:
     return right_num / test_num
     
 
-def acc(x, t, conv_net: ConvNeuralNet):
-    return conv_net.accurate(x=x, t=t, batch_size=100)
+def acc(x, t, net: ConvNeuralNet):
+    return net.accurate(x=x, t=t, batch_size=100)
 
 
 if __name__ == "__main__":
