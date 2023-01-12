@@ -1,0 +1,6 @@
+/others/t10k-images-idx3-ubyte.gz
+/others/t10k-labels-idx1-ubyte.gz
+/others/train-images-idx3-ubyte.gz
+/others/train-labels-idx1-ubyte.gz
+/others/mnist.pkl
+/others/trained_net.pkl
